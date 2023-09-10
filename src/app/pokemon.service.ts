@@ -14,4 +14,8 @@ export class PokemonService {
     const url = `${this.apiUrl}?limit=${limit}`;
     return this.http.get(url);
   }
+
+  getPokemonDetails(url: string): Observable<any> {
+    return this.http.get(url);
+  }
 }

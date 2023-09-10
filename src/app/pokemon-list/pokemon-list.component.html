@@ -1,6 +1,7 @@
 <h1>Pokedex</h1>
 <ul>
   <li *ngFor="let pokemon of pokemonList">
+    <img [src]="pokemon.image" alt="{{ pokemon.name }}" />
     {{ pokemon.name }}
   </li>
 </ul>
