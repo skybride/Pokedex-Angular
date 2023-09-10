@@ -1,6 +1,10 @@
+# Phase 2
+
+- Add to service to get and display pokemon image
+
 # Phase 1
 
-- Simple GET request to Pokeapi and display
+- Simple GET request to Pokeapi and display pokemon name
 
 # PokemonApi
 
